@@ -1,0 +1,33 @@
+.main{
+    position: relative;
+}
+.input,.apply{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin: auto;
+    margin-top: 5px;
+    height: 2rem;
+    width: 4rem;
+}
+.progress{
+    /* background-color: black; */
+    margin-top: 90px;
+    height: 30px;
+    width: 100%;
+    border: 2px solid black;
+    border-width: thin;
+    border-color: #1f0505
+    
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: width 2s;
+    width: auto;
+    height: 1.5rem;
+    margin: auto;
+    margin-top: 3px;
+}

@@ -1,0 +1,72 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.Container{
+    position: relative;
+}
+body{
+    overflow: hidden;
+}
+
+.main,.User-Input,.liftArea{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: flex-start;
+    /* background-color: coral; */
+}
+#NumberOfFloor,#NumberOfLifts{
+    height: 50px;
+    width: 310px;
+    font-size: 20px;
+    border: none;
+    border: 1px solid black;
+}
+.User-Input{
+    justify-content: space-around; 
+    justify-content: center; 
+    flex-direction: row;
+    margin-top: 2%;
+    width: 50vw;
+    height: 60vh;
+}
+.floorContainer{
+    display: grid;
+    grid-template-columns: 100vw;
+    padding-left: 5%; 
+    /* background-color: brown; */
+}
+
+#CreateLift{
+    position: absolute;
+    border-radius: 15%;
+    background-color: coral;
+    height: 40px;
+    width: 85px;
+    cursor: pointer;
+}
+#lifts{
+    position: absolute;
+    height: 27px;
+    width: 20px;
+    color: brown;
+    border: 1px solid black;
+}
+.line{
+    height: 0.5px;
+    width: 70%;
+    background-color: black;
+}
+
+#lifts{
+    width: 30px;
+    height: 50px;
+    background-color: #e7c83d;
+    position: absolute;
+    bottom: 8px;
+    transition: all 1.1s linear;
+}
